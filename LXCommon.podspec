@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LXCommon"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "Common组件"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Core/Core/**/*.{h,m}'
-  s.resources = 'Core/Resource/Core.bundle'
+  s.resources = 'Core/Resource/Core.bundle','Core/Core/**/**.{xib}'
 
   s.dependency 'MBProgressHUD', '~> 1.0.0'
 
