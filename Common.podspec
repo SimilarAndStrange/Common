@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "Common"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Common组件"
 
   s.description  = <<-DESC
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.resources = 'Core/Resource/Core.bundle'
 
   s.dependency 'MBProgressHUD', '~> 1.0.0'
-  
+
 end
