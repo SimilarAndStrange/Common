@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "Common"
-  s.version      = "1.0.1"
+  s.name         = "LXCommon"
+  s.version      = "1.0.2"
   s.summary      = "Common组件"
 
   s.description  = <<-DESC
